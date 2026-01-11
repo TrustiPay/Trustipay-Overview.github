@@ -13,7 +13,7 @@ The Resilient Money Movement & Offline Value (RMMOV) component enables offline-f
 The AI-Based User Behavior Analytics & Financial Profiling component adds financial intelligence by analyzing transactions and SME cash flows to generate Responsible Spending Scores, creditworthiness insights, and personalized nudges, helping users make better decisions while supporting risk assessment and inclusion.
 
 
+**Project Dependencies**
 
-
-**System Architecture Diagram**
+At the application layer, Flutter (Dart) is a core dependency used to build cross-platform mobile applications with multilingual UI support, offline storage, and voice-enabled interactions. Feature-phone access depends on telecom technologies such as USSD, SMS, IVR, and DTMF, integrated via local telco APIs or cloud telephony gateways.For backend services and AI processing, TrustiPay relies heavily on Python-based ecosystems, including FastAPI / Node.js APIs for transaction orchestration and synchronization. Machine learning functionality depends on scikit-learn supporting fraud detection, behavioral profiling, clustering, prediction, speech recognition, and voice biometrics across components. Local and centralized data persistence depends on SQLite for on-device offline ledgers, PostgreSQL and MongoDB for backend transaction and user-profile storage.
 
